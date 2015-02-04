@@ -1,0 +1,15 @@
+<%= form_for :shortener, url: url_path do |f| %>
+  <p>
+    <%= f.label :url %><br>
+    <%= f.text_field :url %>
+  </p>
+
+  <p>
+    <%= f.label :alias %><br>
+    <%= f.text_field :alias %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

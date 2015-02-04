@@ -18,3 +18,12 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
+
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: d5seu80h00q02
+  pool: 5
+  username: lifkuuuazghjox
+  password: A-H0noB-W9hFI7OWWld3lNIQsC
+  host: ec2-23-21-235-249.compute-1.amazonaws.com
