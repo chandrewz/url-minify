@@ -1,12 +1,13 @@
 <%= form_for :shortener, url: url_path do |f| %>
   <p>
-    <%= f.label :url %><br>
-    <%= f.text_field :url %>
+    <strong>URL</strong><br>
+    <%= f.text_field :url, :placeholder => "ex: 'http://www.google.com'", :style => "width: 200px;" %>
   </p>
 
   <p>
-    <%= f.label :alias %><br>
-    <%= f.text_field :alias %>
+    <strong>Custom Alias</strong><br>
+    (Optional; URL will be: http://url-min.herokuapp.com/url/[alias] )<br>
+    <%= f.text_field :alias, :placeholder => "ex: 'goog'", :style => "width: 200px;" %>
   </p>
 
   <p>
