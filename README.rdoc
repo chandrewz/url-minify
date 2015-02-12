@@ -1,5 +1,6 @@
-== README
+== URL Minify
 
 This is a simple project demonstrating URL rerouting and shortening.
+Learning and using Ruby on Rails.
 
-Find it here: http://url-min.herokuapp.com/
+Find it here: http://url-min.herokuapp.com
